@@ -1,0 +1,35 @@
+{
+  "author": "Maxim A.",
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "eslint-plugin-import": "^2.20.2",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "license": "MIT",
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "main": "index.js",
+  "name": "@containator/eslint-config-base",
+  "peerDependencies": {
+    "eslint": "^7.0.0",
+    "eslint-plugin-import": "^2.20.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:containator/eslint-config-base.git"
+  },
+  "scripts": {
+    "lint:fix": "eslint . --ext .js --fix"
+  },
+  "version": "1.0.0"
+}
