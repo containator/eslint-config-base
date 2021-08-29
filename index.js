@@ -5,7 +5,6 @@ module.exports = {
   extends: [
     './rules/best-practices',
     './rules/emca-script-6',
-    './rules/nodejs-and-common-js',
     './rules/possible-errors',
     './rules/strict-mode',
     './rules/stylistic-issues',

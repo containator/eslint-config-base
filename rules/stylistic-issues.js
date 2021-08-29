@@ -54,7 +54,7 @@ module.exports = {
     'func-style': ['error', 'expression'],
     'function-call-argument-newline': ['error', 'consistent'],
     'function-paren-newline': ['error', 'consistent'],
-    'id-blacklist': 'off',
+    'id-denylist': 'off',
     'id-length': 'off',
     'id-match': 'off',
     'implicit-arrow-linebreak': ['error', 'beside'],
