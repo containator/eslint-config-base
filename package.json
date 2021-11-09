@@ -1,10 +1,10 @@
 {
   "author": "Maxim A.",
   "devDependencies": {
-    "eslint": "^7.32.0",
-    "eslint-plugin-import": "^2.24.2",
-    "husky": "^7.0.2",
-    "lint-staged": "^11.2.0"
+    "eslint": "^8.2.0",
+    "eslint-plugin-import": "^2.25.2",
+    "husky": "^7.0.4",
+    "lint-staged": "^11.2.6"
   },
   "husky": {
     "hooks": {
@@ -21,8 +21,8 @@
   "main": "index.js",
   "name": "@containator/eslint-config-base",
   "peerDependencies": {
-    "eslint": "^7.32.0",
-    "eslint-plugin-import": "^2.24.2"
+    "eslint": "^8.2.0",
+    "eslint-plugin-import": "^2.25.2"
   },
   "repository": {
     "type": "git",
