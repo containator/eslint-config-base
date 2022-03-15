@@ -2,11 +2,15 @@ module.exports = {
   rules: {
     'import/dynamic-import-chunkname': 'off',
     'import/exports-last': 'error',
-    'import/extensions': ['error', 'ignorePackages', {
-      js: 'never',
-      jsx: 'never',
-      mjs: 'never',
-    }],
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        js: 'never',
+        jsx: 'never',
+        mjs: 'never',
+      },
+    ],
     'import/first': 'error',
     'import/group-exports': 'error',
     'import/max-dependencies': 'off',

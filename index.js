@@ -3,12 +3,9 @@ module.exports = {
     es6: true,
   },
   extends: [
-    './rules/best-practices',
-    './rules/emca-script-6',
-    './rules/possible-errors',
-    './rules/strict-mode',
-    './rules/stylistic-issues',
-    './rules/variables',
+    './rules/formattings',
+    './rules/possible-problems',
+    './rules/suggestions',
     './rules/plugins/import',
   ].map(require.resolve),
   parserOptions: {
