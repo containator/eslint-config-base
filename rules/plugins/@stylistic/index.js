@@ -2,7 +2,7 @@ module.exports = {
   extends: [
     './rules/additional',
     './rules/base',
-    './rules/jsx'
+    './rules/jsx',
   ].map(require.resolve),
   plugins: ['@stylistic'],
   settings: {
@@ -10,7 +10,7 @@ module.exports = {
     'import/extensions': [
       '.js',
       '.mjs',
-      '.jsx'
+      '.jsx',
     ],
     'import/ignore': ['node_modules', '\\.(coffee|scss|css|less|hbs|svg|json)$'],
     'import/resolver': {
@@ -18,9 +18,9 @@ module.exports = {
         extensions: [
           '.mjs',
           '.js',
-          '.json'
-        ]
-      }
-    }
-  }
+          '.json',
+        ],
+      },
+    },
+  },
 };

@@ -5,12 +5,12 @@ module.exports = {
       {
         applyDefaultPatterns: true,
         ignorePattern: '',
-        position: 'above'
-      }
+        position: 'above',
+      },
     ],
     'unicode-bom': [
       'error',
-      'never'
-    ]
-  }
+      'never',
+    ],
+  },
 };

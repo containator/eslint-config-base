@@ -3,68 +3,68 @@ module.exports = {
     '@stylistic/jsx-child-element-spacing': 'off',
     '@stylistic/jsx-closing-bracket-location': [
       'error',
-      'line-aligned'
+      'line-aligned',
     ],
     '@stylistic/jsx-closing-tag-location': 'error',
     '@stylistic/jsx-curly-brace-presence': [
       'error',
       {
         children: 'never',
-        props: 'never'
-      }
+        props: 'never',
+      },
     ],
     '@stylistic/jsx-curly-newline': [
       'error',
-      'consistent'
+      'consistent',
     ],
     '@stylistic/jsx-curly-spacing': [
       'error',
       'never',
       {
-        allowMultiline: true
-      }
+        allowMultiline: true,
+      },
     ],
     '@stylistic/jsx-equals-spacing': [
       'error',
-      'never'
+      'never',
     ],
     '@stylistic/jsx-first-prop-new-line': [
       'error',
-      'multiline-multiprop'
+      'multiline-multiprop',
     ],
     '@stylistic/jsx-indent': [
       'error',
-      2
+      2,
     ],
     '@stylistic/jsx-indent-props': [
       'error',
-      2
+      2,
     ],
     '@stylistic/jsx-max-props-per-line': [
       'error',
       {
         maximum: 1,
-        when: 'multiline'
-      }
+        when: 'multiline',
+      },
     ],
     '@stylistic/jsx-newline': [
       'error',
       {
-        prevent: true
-      }
+        prevent: true,
+      },
     ],
     '@stylistic/jsx-one-expression-per-line': [
       'error',
       {
-        allow: 'none'
-      }
+        allow: 'none',
+      },
     ],
     '@stylistic/jsx-props-no-multi-spaces': 'error',
     '@stylistic/jsx-self-closing-comp': [
       'error', {
         component: true,
-        html: true
-      }
+        html: true,
+      },
     ],
     '@stylistic/jsx-sort-props': 'error',
     '@stylistic/jsx-tag-spacing': [
@@ -73,8 +73,8 @@ module.exports = {
         afterOpening: 'never',
         beforeClosing: 'never',
         beforeSelfClosing: 'always',
-        closingSlash: 'never'
-      }
+        closingSlash: 'never',
+      },
     ],
     '@stylistic/jsx-wrap-multilines': [
       'error',
@@ -85,8 +85,8 @@ module.exports = {
         declaration: 'parens-new-line',
         logical: 'parens-new-line',
         prop: 'parens-new-line',
-        return: 'parens-new-line'
-      }
-    ]
-  }
+        return: 'parens-new-line',
+      },
+    ],
+  },
 };

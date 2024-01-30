@@ -6,8 +6,8 @@ module.exports = {
     'import/no-extraneous-dependencies': [
       'error', {
         devDependencies: true,
-        optionalDependencies: false
-      }
+        optionalDependencies: false,
+      },
     ],
     'import/no-mutable-exports': 'error',
     'import/no-named-as-default': 'error',
@@ -16,8 +16,8 @@ module.exports = {
       'error',
       {
         missingExports: false,
-        unusedExports: true
-      }
-    ]
-  }
+        unusedExports: true,
+      },
+    ],
+  },
 };

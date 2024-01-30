@@ -9,8 +9,8 @@ module.exports = {
       {
         js: 'never',
         jsx: 'never',
-        mjs: 'never'
-      }
+        mjs: 'never',
+      },
     ],
     'import/first': 'error',
     'import/group-exports': 'error',
@@ -24,6 +24,6 @@ module.exports = {
     'import/no-namespace': 'off',
     'import/no-unassigned-import': 'off',
     'import/order': 'off',
-    'import/prefer-default-export': 'off'
-  }
+    'import/prefer-default-export': 'off',
+  },
 };
