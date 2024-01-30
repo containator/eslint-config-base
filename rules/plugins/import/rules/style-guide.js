@@ -1,5 +1,6 @@
 module.exports = {
   rules: {
+    'import/consistent-type-specifier-style': 'off',
     'import/dynamic-import-chunkname': 'off',
     'import/exports-last': 'error',
     'import/extensions': [
@@ -8,8 +9,8 @@ module.exports = {
       {
         js: 'never',
         jsx: 'never',
-        mjs: 'never',
-      },
+        mjs: 'never'
+      }
     ],
     'import/first': 'error',
     'import/group-exports': 'error',
@@ -23,6 +24,6 @@ module.exports = {
     'import/no-namespace': 'off',
     'import/no-unassigned-import': 'off',
     'import/order': 'off',
-    'import/prefer-default-export': 'off',
-  },
+    'import/prefer-default-export': 'off'
+  }
 };

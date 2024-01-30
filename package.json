@@ -1,15 +1,11 @@
 {
   "author": "Maxim A.",
   "devDependencies": {
-    "eslint": "^8.35.0",
-    "eslint-plugin-import": "^2.27.5",
-    "husky": "^8.0.3",
-    "lint-staged": "^13.1.2"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+    "@stylistic/eslint-plugin": "^1.5.4",
+    "eslint": "^8.56.0",
+    "eslint-plugin-import": "^2.29.1",
+    "husky": "^9.0.7",
+    "lint-staged": "^15.2.0"
   },
   "license": "MIT",
   "lint-staged": {
@@ -21,8 +17,9 @@
   "main": "index.js",
   "name": "@containator/eslint-config-base",
   "peerDependencies": {
-    "eslint": "^8.30.0",
-    "eslint-plugin-import": "^2.26.0"
+    "@stylistic/eslint-plugin": "^1.5.4",
+    "eslint": "^8.56.0",
+    "eslint-plugin-import": "^2.29.1"
   },
   "repository": {
     "type": "git",
@@ -30,7 +27,7 @@
   },
   "scripts": {
     "lint:fix": "eslint . --ext .js --fix",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "version": "1.0.0"
 }

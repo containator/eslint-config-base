@@ -2,11 +2,12 @@ module.exports = {
   rules: {
     'import/export': 'error',
     'import/no-deprecated': 'error',
+    'import/no-empty-named-blocks': 'error',
     'import/no-extraneous-dependencies': [
       'error', {
         devDependencies: true,
-        optionalDependencies: false,
-      },
+        optionalDependencies: false
+      }
     ],
     'import/no-mutable-exports': 'error',
     'import/no-named-as-default': 'error',
@@ -15,8 +16,8 @@ module.exports = {
       'error',
       {
         missingExports: false,
-        unusedExports: true,
-      },
-    ],
-  },
+        unusedExports: true
+      }
+    ]
+  }
 };

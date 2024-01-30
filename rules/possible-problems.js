@@ -4,16 +4,16 @@ module.exports = {
       'error',
       {
         allowImplicit: false,
-        checkForEach: true,
-      },
+        checkForEach: true
+      }
     ],
     'constructor-super': 'error',
     'for-direction': 'error',
     'getter-return': [
       'error',
       {
-        allowImplicit: true,
-      },
+        allowImplicit: true
+      }
     ],
     'no-async-promise-executor': 'off',
     'no-await-in-loop': 'off',
@@ -21,9 +21,10 @@ module.exports = {
     'no-compare-neg-zero': 'error',
     'no-cond-assign': [
       'error',
-      'always',
+      'always'
     ],
     'no-const-assign': 'error',
+    'no-constant-binary-expression': 'error',
     'no-constant-condition': 'error',
     'no-constructor-return': 'error',
     'no-control-regex': 'error',
@@ -45,6 +46,7 @@ module.exports = {
     'no-irregular-whitespace': 'error',
     'no-loss-of-precision': 'error',
     'no-misleading-character-class': 'off',
+    'no-new-native-nonconstructor': 'error',
     'no-new-symbol': 'error',
     'no-obj-calls': 'error',
     'no-promise-executor-return': 'error',
@@ -52,8 +54,8 @@ module.exports = {
     'no-self-assign': [
       'error',
       {
-        props: false,
-      },
+        props: false
+      }
     ],
     'no-self-compare': 'error',
     'no-setter-return': 'error',
@@ -74,16 +76,16 @@ module.exports = {
       {
         args: 'after-used',
         ignoreRestSiblings: true,
-        vars: 'all',
-      },
+        vars: 'all'
+      }
     ],
     'no-use-before-define': [
       'error',
       {
         classes: true,
         functions: true,
-        variables: true,
-      },
+        variables: true
+      }
     ],
     'no-useless-backreference': 'error',
     'require-atomic-updates': 'error',
@@ -91,8 +93,8 @@ module.exports = {
     'valid-typeof': [
       'error',
       {
-        requireStringLiterals: true,
-      },
-    ],
-  },
+        requireStringLiterals: true
+      }
+    ]
+  }
 };
